@@ -9,34 +9,34 @@ abstract class Style {
   }
 
   static TextStyle defaultStyle = textStyle.copyWith(
-    color: AppColor.kBlack,
+    color: ColorsApp.kBlack,
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
   static TextStyle defaultLightStyle = textStyle.copyWith(
-    color: AppColor.kBlack,
+    color: ColorsApp.kBlack,
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
 
   static TextStyle primaryStyle = textStyle.copyWith(
-    color: AppColor.kPrimary,
+    color: ColorsApp.kPrimary,
     fontSize: 16,
     fontWeight: FontWeight.w500,
-    decorationColor: AppColor.kPrimary,
+    decorationColor: ColorsApp.kPrimary,
   );
 
   static TextStyle darkStyle =
-      textStyle.copyWith(fontSize: 18, fontWeight: FontWeight.w500, color: AppColor.kBlack);
+      textStyle.copyWith(fontSize: 18, fontWeight: FontWeight.w500, color: ColorsApp.kBlack);
 
   static TextStyle whiteStyle = textStyle.copyWith(
-    color: AppColor.kWhite,
+    color: ColorsApp.kWhite,
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
 
    static TextStyle greyLightStyle = textStyle.copyWith(
-    color: AppColor.kGrey2,
+    color: ColorsApp.kGrey2,
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
